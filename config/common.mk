@@ -258,7 +258,7 @@ PRODUCT_PACKAGES += \
     su
 endif
 endif
-
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/korus/overlay
 DEVICE_PACKAGE_OVERLAYS += vendor/korus/overlay/common
 
 PRODUCT_VERSION = 1.0
