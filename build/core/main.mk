@@ -1,2 +1,2 @@
-# Include LineageOS versions
-include $(TOPDIR)vendor/lineage/build/core/main_version.mk
+# Include Korus Project versions
+include $(TOPDIR)vendor/korus/build/core/main_version.mk

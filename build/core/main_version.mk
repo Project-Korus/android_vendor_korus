@@ -1,14 +1,9 @@
-# LineageOS System Version
+# Korus Project System Version
 ADDITIONAL_BUILD_PROPERTIES += \
-    ro.lineage.version=$(LINEAGE_VERSION) \
-    ro.lineage.releasetype=$(LINEAGE_BUILDTYPE) \
-    ro.lineage.build.version=$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR) \
-    ro.modversion=$(LINEAGE_VERSION) \
-    ro.lineagelegal.url=https://lineageos.org/legal
-
-# LineageOS Platform Display Version
-ADDITIONAL_BUILD_PROPERTIES += \
-    ro.lineage.display.version=$(LINEAGE_DISPLAY_VERSION)
+    ro.korus.version=$(KORUS_VERSION) \
+    ro.korus.releasetype=$(KORUS_BUILDTYPE) \
+    ro.korus.build.version=$(PRODUCT_VERSION) \
+    ro.modversion=$(KORUS_VERSION) \
 
 # LineageOS Platform SDK Version
 ADDITIONAL_BUILD_PROPERTIES += \
