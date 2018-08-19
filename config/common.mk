@@ -138,9 +138,12 @@ PRODUCT_PACKAGES += \
     Jelly \
     LockClock \
     Trebuchet \
-    Updater \
     WallpaperPicker \
     WeatherProvider
+
+# Korus Project package
+PRODUCT_PACKAGES += \
+    KorusOTA
 
 # Exchange support
 PRODUCT_PACKAGES += \
