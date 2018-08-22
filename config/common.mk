@@ -273,4 +273,4 @@ KORUS_VERSION := Korus-Project-$(PRODUCT_VERSION)-$(shell date +%Y%m%d)-$(KORUS_
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
 -include vendor/korus/config/partner_gms.mk
 
-$(call prepend-product-if-exists, vendor/extra/product.mk)
+$(call inherit-product-if-exists, vendor/extra/product.mk)
