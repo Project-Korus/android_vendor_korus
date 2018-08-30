@@ -93,6 +93,10 @@ PRODUCT_COPY_FILES += \
     vendor/korus/config/permissions/org.lineageos.android.xml:system/etc/permissions/org.lineageos.android.xml \
     vendor/korus/config/permissions/privapp-permissions-lineage.xml:system/etc/permissions/privapp-permissions-lineage.xml
 
+# Hidden API whitelist
+PRODUCT_COPY_FILES += \
+    vendor/lineage/config/permissions/lineage-hiddenapi-package-whitelist.xml:system/etc/permissions/lineage-hiddenapi-package-whitelist.xml
+
 # Include Korus audio files
 include vendor/korus/config/korus_audio.mk
 
