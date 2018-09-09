@@ -247,8 +247,10 @@ PRODUCT_VERSION = 1.0
 ifndef KORUS_BUILDTYPE
     KORUS_BUILDTYPE = UNOFFICIAL
 endif
+
 KORUS_VERSION := Korus-Project-$(PRODUCT_VERSION)-$(shell date +%Y%m%d)-$(KORUS_BUILDTYPE)-$(KORUS_BUILD)
 
+-include vendor/korus-keys/keys.mk
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
 -include vendor/korus/config/partner_gms.mk
 
