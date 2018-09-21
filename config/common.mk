@@ -1,3 +1,7 @@
+
+# Allow vendor/extra to override any property by setting it first
+$(call inherit-product-if-exists, vendor/extra/product.mk)
+
 PRODUCT_BRAND ?= KorusProject
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
@@ -279,5 +283,3 @@ KORUS_VERSION := Korus-Project-$(PRODUCT_VERSION)-$(shell date +%Y%m%d)-$(KORUS_
 -include vendor/korus-keys/keys.mk
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
 -include vendor/korus/config/partner_gms.mk
-
-$(call inherit-product-if-exists, vendor/extra/product.mk)
