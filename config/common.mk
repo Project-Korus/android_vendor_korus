@@ -98,7 +98,7 @@ PRODUCT_COPY_FILES += \
 
 # Hidden API whitelist
 PRODUCT_COPY_FILES += \
-    vendor/lineage/config/permissions/lineage-hiddenapi-package-whitelist.xml:system/etc/permissions/lineage-hiddenapi-package-whitelist.xml
+    vendor/korus/config/permissions/lineage-hiddenapi-package-whitelist.xml:system/etc/permissions/lineage-hiddenapi-package-whitelist.xml
 
 # Include Korus audio files
 include vendor/korus/config/korus_audio.mk
