@@ -1,6 +1,6 @@
 bootstrap_go_package {
-    name: "soong-korus",
-    pkgPath: "korus/soong/android",
+    name: "soong-lineage",
+    pkgPath: "lineage/soong/android",
     srcs: [
         "android/config.go",
         "android/variable.go",
